@@ -1,0 +1,16 @@
+#1 se creo el archivo con nombre "03Reto de clase"
+#2 Definir las variabbles
+actividad = input("Ingrese el nombre de la actividad formativa a la cual desea acceder : ")
+cupos = int(input("Ingrese la cantidad de cupos requeridos para la actividad formativa: "))
+duracion_horas = float(input("Ingrese la cantidad de horas requeridas para la actividad formativa :"))
+requiere_inscripcion = bool(input("Indique si requiere inscrpcion al programa formativo: "))
+
+print("la actividad requerida es ",actividad)
+print("El numero requerido de cupos es ",cupos)
+print("la duracion de horas es ",duracion_horas)
+print(requiere_inscripcion)
+
+print(type(actividad))
+print(type(cupos))
+print(type(duracion_horas))
+print(type(requiere_inscripcion))
